@@ -58,3 +58,26 @@ button {
 button:hover {
     background-color: #47047e;
 }
+
+@media (max-width:420px) {
+    .container {
+        padding: 30px;
+        display: inline;
+        width: 90%;
+        margin: 20px 30px;
+    }
+
+    .container h1 {
+        font-size: 18px;
+    }
+
+    input {
+        padding: 8px 5px;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 8px 18px;
+        font-size: 15px;
+    }
+}
